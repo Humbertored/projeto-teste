@@ -1,14 +1,20 @@
 #include <stdio.h>
-# <math.h>
+#include <math.h>
 
-//função que calcula a distância
+// Função que calcula a distância
+float calculaDistancia(int x1, int y1, int x2, int y2) {
+    return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+}
 
-flaot calculaDistancia(int x1, int y1, int x2, int y2) {
-	return sqrt(pow(x2-x1,2) + pow(y2-y1, 2));
-} 
-//main
-int main(){
-
-
-
+// Função principal (main)
+int main() {
+    // Exemplo de utilização da função
+    int x1, y1, x2, y2;
+    
+    // Atribuir valores às coordenadas
+    x1 = 1;
+    y1 = 2;
+    x2 = 3;
+    y2 = 4;
+    
 }
